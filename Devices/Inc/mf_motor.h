@@ -15,7 +15,8 @@ typedef struct MF_MOTOR_INFO
     int16_t velocity;
     int16_t current;
     int8_t temp;
-
+    int16_t target_current;
+    
     int16_t turn_count;
     float total_angle;
     uint16_t last_angle;
